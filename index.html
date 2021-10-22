@@ -1,0 +1,138 @@
+ <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Charles Portfolio Website</title>
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha256-46qynGAKLSFpVbEBog43gvNhfr0j+BmwXdxFgVK/Kvc=" crossorigin="anonymous"/>
+        <script src="https://kit.fontawesome.com/b538ebc87f.js" crossorigin="anonymous"></script>
+        <!--update thse with your own fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css"
+    </head>
+    <body>    
+        <header>
+            <div class="logo">
+            <!--Put a logo image in the img tag below-->
+                <img src="img/logo.jpg" alt="">
+
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+                <!-- Introduction  -->
+            <section class="intro" id="home">
+                    <h1 class="section__title section__title--intro">
+                        Hi, I am <strong>Charles West</strong>
+                    </h1>
+                    <p class="section__subtitle section__subtitle--intro">Manufacturing Engineer</p>
+                    <img src="img/me_2.jpg" alt="a picture of me similing" class="intro__img">
+
+            </section>
+
+            <!--My Services-->
+            <section class="my-services" id="services">
+            
+                <h2 class="section__title section__title--services">What I do</h2>
+                
+                <div class="services">
+                    <div class="service">
+                        <h3>Manufacturing Engineering</h3>
+                        <p>Praesent et mauris faucibus, molestie elit fermentum, tincidunt urna. 
+                            Nulla rutrum ligula quis nisl scelerisque, at pulvinar leo sagittis. 
+                            Aliquam auctor accumsan felis sagittis sollicitudin. 
+                            Suspendisse potenti. Sed vestibulum nisl eu ipsum ultricies placerat. 
+                            Phasellus consectetur felis tellus, id finibus nunc vulputate id. 
+                            Pellentesque elementum ut est eget facilisis.
+                        </p>
+                    </div>
+                    <div class="service">
+                        <h3>Software Engineering</h3>
+                        <p>Praesent et mauris faucibus, molestie elit fermentum, tincidunt urna. 
+                            Nulla rutrum ligula quis nisl scelerisque, at pulvinar leo sagittis. 
+                            Aliquam auctor accumsan felis sagittis sollicitudin. 
+                            Suspendisse potenti. Sed vestibulum nisl eu ipsum ultricies placerat. 
+                            Phasellus consectetur felis tellus, id finibus nunc vulputate id. 
+                            Pellentesque elementum ut est eget facilisis.
+                        </p>
+                    </div>
+                    <div class="service">
+                        <h3>Project Management</h3>
+                        <p>Praesent et mauris faucibus, molestie elit fermentum, tincidunt urna. 
+                            Nulla rutrum ligula quis nisl scelerisque, at pulvinar leo sagittis. 
+                            Aliquam auctor accumsan felis sagittis sollicitudin. 
+                            Suspendisse potenti. Sed vestibulum nisl eu ipsum ultricies placerat. 
+                            Phasellus consectetur felis tellus, id finibus nunc vulputate id. 
+                            Pellentesque elementum ut est eget facilisis.
+                        </p>
+                    </div>
+                </div>
+                <a href="#work" class="btn">My Work</a>
+            </section>
+            
+            <section class="about-me" id="about">
+                <h2 class="section__title section__title--about">Who I am</h2>
+                <p class="section_subtitle section__subtitle--about">
+                    Engineer based out of the Bay Area
+                </p>
+                <div class="about-me__body">
+                    <p> Pellentesque elementum ut est eget facilisis. Cras scelerisque massa et dictum porttitor. 
+                        Sed ut maximus orci. Donec eu metus consectetur, tincidunt orci non, ornare metus.</p>
+                    <p> Pellentesque elementum ut est eget facilisis. Cras scelerisque massa et dictum porttitor. 
+                        Sed ut maximus orci. Donec eu metus consectetur, tincidunt orci non, ornare metus.</p>
+
+                </div>
+                <img src="img/me.JPG" alt="" class="about-me__img">
+            </section>
+
+            <section class="my-work" id="work">
+                <h2 class="section__title section__title--work">My Work</h2>
+                <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+                <div class="portfolio">
+                    <!--Portfolio item 01-->
+                    <a href="portfolio-item_1.html" class="portfolio__item">
+                        <img src="img/industrial_Robot_Arm_adobespark.jpg" alt="" class="portfolio__img">
+                    </a>
+                    <!--Portfolio item 02-->
+                    <a href="portfolio-item_2.html" class="portfolio__item">
+                        <img src="img/vishnu-mohanan-vtg8tAdoWVQ-unsplash_adobespark.jpg" alt="" class="portfolio__img">
+                    </a>
+                    <!--Portfolio item 03-->
+                    <a href="portfolio-item_3.html" class="portfolio__item">
+                        <img src="img/chris-ried-ieic5Tq8YMk-unsplash_adobespark.jpg" alt="" class="portfolio__img">
+                    </a>
+                </div>
+            </section>
+            <!--Footer-->
+            <footer class="footer">
+                <a href="mailto:cwestca@gmail.com" class="footer__link">cwestca@gmail.com</a>
+                <ul class="social-list">
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://github.com">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://linkedin.com">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                </ul>
+            </footer>
+
+            <script src="js/index.js"></script>
+    </body>
+</html>
